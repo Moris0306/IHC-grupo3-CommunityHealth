@@ -6,11 +6,11 @@
 
 <p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
 
-<p align="center"><strong>Ingeniería de Software</strong>
+<p align="center"><strong>Ingeniería de Software</strong></p>
  
-IHC y Tecnologías moviles<br>
+<p align="center">IHC y Tecnologías moviles</p>
 
-<strong>Profesor: Juan Carlos Morales Arevalo</strong> </p>
+<p align="center"><strong>Profesor: Juan Carlos Morales Arevalo</strong> </p>
 
 <h2 align="center">INFORME</h2>
 
