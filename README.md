@@ -25,7 +25,7 @@
 |--------------------------------------|--------------|
 |Franco Mauricio López | U202315890 |
 |Gianmarco Castañeda Sinarahua | U20191c040 |
-|José Bautista Rivera | U202310949 |
+|José Diego Bautista Rivera | U202310949 |
 |Lina | U |
 |Isabel Angelica Sequeiros Torrejon| U20211B164 |
 
