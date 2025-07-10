@@ -3,24 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page - Curso IHC y TM</title>
+    <title>Dispensar Medicamentos</title>
     <link rel="stylesheet" href="assets\style\style.css" />
   </head>
   <body>
-    <!-- MENÚ SUPERIOR -->
-    <header class="topbar">
+    <!-- Barra superior -->
+    <nav class="topbar">
       <div class="container">
-        <a href="index.html"><img src="assets\images\CH_logo.jpg" alt="Logo" class="logo-header" /></a>
+        <a href="index.html">
+          <img src="assets\images\CH_logo.jpg" alt="Logo" class="logo-header" />
+        </a>
+
         <nav class="main-menu">
           <div class="menu-item">
-            <a href="index.html">Nuestro trabajo</a>
-            <ul class="menu-vertical">
+          <li><a href="index.html">Nuestro trabajo</a></li>
+          <ul class="menu-vertical">
               <li><a href="#">Historia</a></li>
               <li><a href="#">Propósito</a></li>
               <li><a href="#">Visión y Misión</a></li>
               <li><a href="#">Sedes</a></li>
             </ul>
           </div>
+
           <div class="menu-item">
             <a href="Donación.html">Donación</a>
             <ul class="menu-vertical">
@@ -29,28 +33,109 @@
               <li><a href="#">Requisitos</a></li>
             </ul>
           </div>
+          
           <div class="menu-item">
-            <a href="Dispensar.html">Dispensar</a>
+            <a href="#">Dispensar</a>
             <ul class="menu-vertical">
-              <li><a href="#">¿Cómo solicitar?</a></li>
-              <li><a href="#">Requisitos</a></li>
-              <li><a href="#">Sedes</a></li>
+              <li><a href="#como-solicitar">¿Cómo solicitar?</a></li>
+              <li><a href="#requisitos">Requisitos</a></li>
+              <li><a href="#sedes">Sedes</a></li>
             </ul>
           </div>
+
           <div class="menu-item">
             <a href="Verificación.html">Verificación</a>
             <ul class="menu-vertical">
-              <li>
-                <a href="Verificacion_Medicamento.html"
-                  >Verificar medicamento</a
-                >
-              </li>
-              <li><a href="Verificación.html">Preguntas frecuentes</a></li>
+              <li><a href="#">Verificar Medicamento</a>
+              </li><a href="#">Preguntas Frecuentes</a></li>
             </ul>
           </div>
         </nav>
         <a href="IniciarSesión.html" class="btn-iniciar">Iniciar</a>
       </div>
-    </header>
+    </nav>
+
+    <!-- Seccion principal -->
+    <section class="dispensar">
+      <div class="container">
+        <h2>Dispensador de Medicamentos</h2>
+        <p class="intro-text">
+          En nuestro dispensario, tu salud es nuestra prioridad. Brindamos
+          acceso seguro y responsable a medicamentos, garantizando que cada
+          paciente reciba la orientación adecuada sobre su tratamiento.
+        </p>
+
+        <div class="card-grid">
+          <div class="med-card">
+            <img src="assets\images\analgesicos.jpeg" alt="Analgésicos" />
+            <h3>Analgésicos</h3>
+            <p>
+              Medicamentos que alivian el dolor sin causar pérdida de
+              conciencia.
+            </p>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/25/25694.png"
+                alt="icono enlace"
+                class="icono-enlace"
+            /></a>
+          </div>
+
+          <div class="med-card">
+            <img src="assets\images\antibioticos.jpeg" alt="Antibióticos" />
+            <h3>Antibióticos</h3>
+            <p>Medicamentos que combaten infecciones causadas por bacterias.</p>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/25/25694.png"
+                alt="icono enlace"
+                class="icono-enlace"
+            /></a>
+          </div>
+
+          <div class="med-card">
+            <img src="assets\images\antiflamatorios2.jpeg" alt="Antiinflamatorios" />
+            <h3>Antiinflamatorios</h3>
+            <p>
+              Medicamentos que reducen la inflamación, el dolor y la fiebre.
+            </p>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/25/25694.png"
+                alt="icono enlace"
+                class="icono-enlace"
+            /></a>
+          </div>
+        </div>
+
+        <!-- Subsecciones -->
+        <section id="como-solicitar" class="subinfo">
+          <h3>¿Cómo solicitar?</h3>
+          <p>
+            Para solicitar medicamentos debes contar con una receta vigente y
+            registrarte en nuestra plataforma. Luego, acude a una sede cercana y
+            presenta tu documento de identidad.
+          </p>
+        </section>
+
+        <section id="requisitos" class="subinfo">
+          <h3>Requisitos</h3>
+          <ul>
+            <li>Receta médica original o digital.</li>
+            <li>Documento de identidad.</li>
+            <li>Registro como usuario receptor.</li>
+          </ul>
+        </section>
+
+        <section id="sedes" class="subinfo">
+          <h3>Sedes disponibles</h3>
+          <ul>
+            <li>Sede Central - Av. Siempre Viva 123, Lima</li>
+            <li>Sede Norte - Jr. Trujillo 456, Trujillo</li>
+            <li>Sede Sur - Av. Arequipa 789, Arequipa</li>
+          </ul>
+        </section>
+      </div>
+    </section>
   </body>
 </html>
