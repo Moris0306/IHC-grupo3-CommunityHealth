@@ -439,3 +439,102 @@ main {
   }
 }
 
+.dispensar {
+  background: #f9f9f9;
+  color: #fff;
+  padding: 3rem 1rem;
+}
+
+.dispensar .container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.dispensar h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #3ca3d8;
+  margin-bottom: 1.2rem;
+}
+
+.dispensar .intro-text {
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 3rem auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.card-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.med-card {
+  background-color: #333;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+  flex: 1 1 260px;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.med-card img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+  border-radius: 0.5rem;
+}
+
+.med-card h3 {
+  color: #f4a51c;
+  margin-top: 1rem;
+}
+
+.med-card p {
+  margin: 0.7rem 0 1rem 0;
+  font-size: 0.95rem;
+  color: #eee;
+}
+
+.icono-enlace {
+  width: 24px;
+  height: 24px;
+  filter: invert(100%);
+}
+
+.subinfo {
+  margin-top: 3rem;
+  background-color: #111;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.subinfo h3 {
+  color: #3ca3d8;
+  margin-bottom: 1rem;
+}
+
+.subinfo ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.subinfo ul li {
+  padding-left: 1rem;
+  position: relative;
+  margin-bottom: 0.8rem;
+}
+
+.subinfo ul li::before {
+  content: \"\\2022\";
+  position: absolute;
+  left: 0;
+  color: #f4a51c;
+}
+
