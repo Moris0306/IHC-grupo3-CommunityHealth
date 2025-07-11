@@ -17,6 +17,7 @@ body {
 .topbar {
   background: #0c3555;
   width: 100%;
+  position: fixed;
 }
 .topbar .container {
   display: flex;
@@ -359,6 +360,14 @@ main {
   .nosotros-fotos{
     flex-direction: column;
   }
+  .Footer-Container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .Footer-Social img {
+    margin-bottom: 0.5rem;
+  }
 }
 @media (max-width: 600px) {
   .topbar .container {
@@ -590,6 +599,62 @@ main {
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.Footer {
+  background-color: #183450; /* Fondo oscuro para contraste */
+  color: white;
+  padding: 2rem 1rem;
+}
+
+/* Contenedor flexible para 3 columnas */
+.Footer-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  gap: 2rem;
+}
+
+/* Marca o logotipo */
+.Footer-Brand {
+  flex: 1;
+  min-width: 200px;
+}
+.Footer-Logo {
+  width: 60px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+/* Enlaces legales */
+.Footer-Links {
+  flex: 1;
+  min-width: 200px;
+}
+.Footer-Links a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin: 0.3rem 0;
+}
+
+.Footer-Links a:hover {
+  color: #ef8615;
+}
+/* Redes sociales con íconos */
+.Footer-Social {
+  flex: 1;
+  min-width: 200px;
+}
+
+.Footer-Social .Social-Icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+  transition: transform 0.2s ease-in-out;
 }
 
 .subinfo h3 {
