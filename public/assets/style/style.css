@@ -1,10 +1,16 @@
+
 body {
   margin: 0;
   padding: 0.5rem;
   box-sizing: border-box;
-  font-family: "Montserrat", Arial, "Segoe UI", sans-serif;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 610;
   background: #222;
   color: #fff;
+}
+
+.texto-marcado{
+  color: #f4671a ;
 }
 
 /* ==== BARRA SUPERIOR (MENU) ==== */
@@ -33,7 +39,7 @@ body {
   flex: 1;
   padding: 0 1.5rem;
   margin: 0 1rem;
-  border-radius: 0 0 8px 8px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   gap: 1.5rem;
@@ -45,7 +51,7 @@ body {
   color: #222;
   text-decoration: none;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 550;
   padding: 1rem 1.25rem;
   border-radius: 6px;
   transition: background 0.2s, color 0.2s;
@@ -337,7 +343,7 @@ main {
 .verificar-medicamento button {
   width: 100%;
   padding: 0.75rem;
-  background-color: #f89d5c;
+  background-color: #EF8615;
   color: #fff;
   font-weight: bold;
   font-size: 1.1rem;
@@ -348,7 +354,7 @@ main {
   transition: background 0.2s;
 }
 .verificar-medicamento button:hover {
-  background-color: #f4671a;
+  background-color: #EF8615;
 }
 #mensajeError {
   margin-top: 1rem;
@@ -387,7 +393,7 @@ main {
 }
 .btn-verificacion,
 .btn-faq {
-  background-color: #f89d5c;
+  background-color: #EF8615;
   color: #fff;
   padding: 0.8rem 1.5rem;
   text-decoration: none;
@@ -397,7 +403,7 @@ main {
 }
 .btn-verificacion:hover,
 .btn-faq:hover {
-  background-color: #f4671a;
+  background-color: #EF8615;
 }
 
 /* ==== MENSAJE DE ÉXITO ==== */
@@ -463,6 +469,7 @@ main {
   margin: 0 auto 3rem auto;
   font-size: 1.1rem;
   line-height: 1.6;
+  color: #222222;
 }
 
 .card-grid {
@@ -474,7 +481,7 @@ main {
 }
 
 .med-card {
-  background-color: #333;
+  background-color: #111;
   border-radius: 1rem;
   padding: 1rem;
   text-align: center;
@@ -491,7 +498,7 @@ main {
 }
 
 .med-card h3 {
-  color: #f4a51c;
+  color: #EF8615;
   margin-top: 1rem;
 }
 
@@ -535,6 +542,6 @@ main {
   content: \"\\2022\";
   position: absolute;
   left: 0;
-  color: #f4a51c;
+  color: #EF8615;
 }
 
