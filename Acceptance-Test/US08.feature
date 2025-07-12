@@ -1,8 +1,15 @@
 Feature: Validar medicamento
-  Como profesional, quiero aprobar o rechazar medicamentos registrados.
+  Como profesional de la salud, quiero aprobar o rechazar medicamentos registrados,
+  para asegurar que solo se redistribuyan medicamentos seguros y aptos.
 
-  Scenario: Validar medicamentos desde la pestaña de reportes
-    Given que el profesional de la salud va a aprobar o rechazar medicamentos
-    When ingresa a la pestaña de reportes
-    Then el sistema muestra la información brindada por el donante
-    And le pide justificar el rechazo o la aprobación de la donación
+  Scenario: Visualizar reporte de medicamento a validar
+    Given que el profesional accede a la pestaña de reportes
+    When selecciona un medicamento para validar
+    Then el sistema debe mostrar la información registrada por el donante
+    And debe mostrar botones para "Aprobar" o "Rechazar"
+    And debe permitir justificar la decisión tomada
+
+  Scenario: Justificación obligatoria al rechazar medicamento
+    Given que el profesional decide rechazar un medicamento
+    When hace clic en "Rechazar"
+    Then el sistema debe solicitar una justificación antes de confirmar
