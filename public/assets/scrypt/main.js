@@ -6,9 +6,8 @@ if (formGeneral) {
     const fname = formGeneral.elements["fname"].value;
     const flastname = formGeneral.elements["flastname"].value;
     const femail = formGeneral.elements["femail"].value;
-    const fphone = formGeneral.elements["fphone"].value;
 
-    if (!fname || !flastname || !femail || !fphone) {
+    if (!fname || !flastname || !femail) {
       event.preventDefault();
       alert("Por favor, complete todos los campos del formulario");
     } else if (!validateEmail(femail)) {
