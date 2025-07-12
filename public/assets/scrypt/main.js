@@ -1,12 +1,3 @@
-// -------------------- MENÚ HAMBURGUESA --------------------
-const btn = document.querySelector(".menu-toggle");
-const menu = document.querySelector(".menu-horizontal");
-
-if (btn && menu) {
-  btn.addEventListener("click", () => {
-    menu.classList.toggle("active");
-  });
-}
 
 // -------------------- VALIDACIÓN FORMULARIO GENERAL --------------------
 const formGeneral = document.querySelector('form[name="frm"]');
